@@ -1,0 +1,4 @@
+Gas Unplugged,Gas Plugged,Oil Unplugged,Oil Plugged,Other Unplugged,Other Plugged,Total count
+2,2,1,1,2,2,=SUM(A2:F2)
+7.5e4, 5.4e2,3.1e2, 3.6e2,3.1e4, 4.5e2
+=A2*A3,=B2*B3,=C2*C3,=D2*D3,=E2*E3,=F2*F3,=SUM(A4:F4)

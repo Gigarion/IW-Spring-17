@@ -1,0 +1,35 @@
+/****
+* This file matches the listed "products" of a well to the appropriate characteristic product for the Kang2016 module.
+* "Gas" is a gas well
+* "Oil" is a oil or combined oil/gas well
+* "Unknown" is an unknown abandoned well type
+* "Other" wells were “injection”, “dry holes”, “storage”, “observation”, “multiple well bore type”, “waste
+* disposal”, and “test” wells.
+*
+* Format is "real_product,matched_product", where real_product is the actual database entry and matched_product is the associated Kang category. 
+********/
+Oil,Oil
+Gas,Gas
+Gas w/ Oil Show,Gas
+Dry w/ Gas Show,Other
+Dry w/ O&G Show,Other
+Dry,Other
+Oil and Gas,Oil
+not available,Unknown
+Dry w/ Oil Show,Other
+Oil w/ Gas Show,Oil
+Methane (CBM),Gas
+Dry Methane (CBM),Other
+UNKNOWN,Unknown
+Water Injection,Other
+Inj/InSitu Comb,Gas
+,Unknown
+Observation,Other
+Other,Unknown
+Salt Water Prod,Other
+Storage,Other
+Gas Injection,Gas
+Ind Waste Disp,Other
+Salt Water Disp,Other
+Salt Water,Other
+CO2 Injection,Gas
